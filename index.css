@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+
+    
+}
+
+header {
+    background-color:#121212;
+    width:1500px;
+    color:white;
+    padding: 10px;
+    text-align: center;
+    margin:3px;
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: border-color 0.3s ease;
+}
+.bg
+{
+     background-image:url("Banner2.jpg");
+     background-size:1600px;
+     background-repeat: no-repeat;
+
+}
+.logo{
+    
+    height: 50px;
+    float:left;
+    border-radius: 10px;
+
+}
+

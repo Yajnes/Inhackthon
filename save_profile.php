@@ -48,7 +48,7 @@ $sql = "UPDATE students SET
         WHERE id=$student_id";
 
 if (mysqli_query($conn, $sql)) {
-    echo "Profile updated successfully!";
+    echo "'Profile updated successfully!";
 } else {
     echo "Error updating profile: " . mysqli_error($conn);
 }
@@ -66,3 +66,15 @@ if (mysqli_query($conn, $sql)) {
 // Close the database connection
 mysqli_close($conn);
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="all.css">
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel Management</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body class="bg" >
+   
+    <header>
+        
+        <h1><img src="logo.jpg" class="logo"><centre><b>Welcome to Hostel Management</b></centre></h1>
+       
+    </header>
+
+   
+    <main >
+        <div >
+            <button onclick="redirectToRegistration('student')">Student/Parent</button>
+            <button onclick="redirectToRegistration('staff')">Warden</button>
+        </div>
+    </main>
+    
+
+    <script>
+        function redirectToRegistration(userType) {
+            if (userType === 'staff') {
+                const password = prompt('Enter the password:');
+                if (password === 'SMVITM') {
+                    window.location.href = 'student_dashboard.html';
+                } else {
+                    alert('Incorrect password. Access denied.');
+                }
+            } else {
+                window.location.href = 'login.php';
+            }
+        }
+    </script>
+    
+</body>
+</html>

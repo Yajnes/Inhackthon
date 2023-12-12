@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('path_to_your_background_image.jpg'); /* Replace 'path_to_your_background_image.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    color: white; /* Adjust text color for visibility */
+}
+
+/* Additional styles for your table or other elements can be added here */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+table, th, td {
+    border: 1px solid white;
+    padding: 8px;
+}
+
+th {
+    background-color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #555;
+}

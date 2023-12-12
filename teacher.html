@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Registration</title>
+</head>
+<body>
+    <h2>Teacher Registration</h2>
+    <form action="teacher.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" required><br>
+
+        
+        <input type="hidden" name="teacher_id"><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" name="dob" required><br>
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male" required> Male
+        <input type="radio" name="gender" value="Female" required> Female
+        <input type="radio" name="gender" value="Other" required> Other<br>
+
+
+        <label for="address">Address:</label>
+        <input type="text" name="address" required><br>
+
+        <label for="contact_no">Contact No:</label>
+        <input type="text" name="contact_no" required><br>
+
+        <label for="email">Email ID:</label>
+        <input type="email" name="email" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" required><br>
+
+        
+        <input type="submit" value="Register">
+    </form>
+    <p>or <a href="teacher_login.html">LOG IN</a></p>
+</body>
+</html>
